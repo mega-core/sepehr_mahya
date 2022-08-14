@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SepehrMahya</string>
+    <string name="ma_shop">Ma Shop</string>
+    <string name="shop">Shop</string>
+    <string name="recent_view">View</string>
+    <string name="support">Support</string>
+    <string name="about_us">About Us</string>
 </resources>

@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val mahya1 = DivarmanFragment()
+        val mahya1 = MashopFragment()
         val mahya2 = ChatFragment()
         val mahya3 = SabteagahiFragment()
         val mahya4 = DasstehaFragment()
