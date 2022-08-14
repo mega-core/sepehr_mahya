@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#94ffffff">
-
     <TextView
         android:id="@+id/mashop"
         android:layout_width="wrap_content"
@@ -17,7 +16,6 @@
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/profilecard"
         android:layout_width="80dp"
@@ -31,7 +29,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.032" >
-
         <ImageButton
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -40,7 +37,6 @@
             android:clickable="true"
             android:focusable="true" />
     </com.google.android.material.card.MaterialCardView>
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -49,7 +45,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_begin="160dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card1"
         android:layout_width="match_parent"
@@ -58,7 +53,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guideline">
-
         <TextView
             android:id="@+id/shoptext"
             android:layout_width="100dp"
@@ -69,8 +63,6 @@
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginStart="40dp"/>
-
-
         <ImageButton
             android:id="@+id/shop"
             android:layout_width="40dp"
@@ -79,7 +71,6 @@
             android:layout_marginStart="7dp"
             android:background="@drawable/ic_shop" />
     </com.google.android.material.card.MaterialCardView>
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card2"
         android:layout_width="match_parent"
@@ -107,7 +98,6 @@
             android:layout_marginStart="7dp"
             android:background="@drawable/ic_history" />
     </com.google.android.material.card.MaterialCardView>
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card3"
         android:layout_width="match_parent"
@@ -135,7 +125,6 @@
             android:layout_marginStart="7dp"
             android:background="@drawable/ic_support" />
     </com.google.android.material.card.MaterialCardView>
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card4"
         android:layout_width="match_parent"
@@ -156,13 +145,12 @@
             android:layout_marginStart="39dp"/>
         <ImageButton
             android:id="@+id/save"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
             android:layout_gravity="center|left"
             android:layout_marginStart="7dp"
             android:background="@drawable/ic_save" />
     </com.google.android.material.card.MaterialCardView>
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card5"
         android:layout_width="match_parent"
@@ -190,7 +178,6 @@
             android:layout_marginStart="7dp"
             android:background="@drawable/ic_info" />
     </com.google.android.material.card.MaterialCardView>
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card6"
         android:layout_width="match_parent"

@@ -12,6 +12,7 @@
         <entry key="..\:/SepehrMahya/app/src/main/res/layout/fragment_mahya4.xml" value="0.3484375" />
         <entry key="..\:/SepehrMahya/app/src/main/res/layout/fragment_mahya5.xml" value="0.3484375" />
         <entry key="..\:/SepehrMahya/app/src/main/res/menu/bottomnavigation.xml" value="0.3484375" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_a.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_add.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_cat.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_chat.xml" value="0.1895" />
@@ -24,8 +25,11 @@
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_shop.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_support.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/rectangle.xml" value="0.1025" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splash.xml" value="0.1785" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splashback.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_mashop.xml" value="0.22" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_mashop.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/menu/bottomnavigation.xml" value="0.34479166666666666" />
       </map>
     </option>
   </component>
