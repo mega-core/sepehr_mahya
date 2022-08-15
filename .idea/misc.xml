@@ -16,8 +16,10 @@
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_add.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_cat.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_chat.xml" value="0.1895" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_cheerfull.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_history.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_info.xml" value="0.1025" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_pen.xml" value="0.1995" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_pro.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_profile.xml" value="0.1895" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_save.xml" value="0.1025" />
@@ -28,7 +30,9 @@
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splash.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splashback.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_mashop.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_mashop.xml" value="0.1" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/menu/bottomnavigation.xml" value="0.34479166666666666" />
       </map>
     </option>
@@ -38,5 +42,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

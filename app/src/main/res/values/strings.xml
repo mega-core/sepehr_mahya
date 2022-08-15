@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">SepehrMahya</string>
-    <string name="ma_shop">Ma Shop</string>
-    <string name="shop">Shop</string>
-    <string name="recent_view">View</string>
-    <string name="support">Support</string>
-    <string name="about_us">About Us</string>
+    <string name="ma_shop">ما شاپ</string>
+    <string name="shop">خرید</string>
+    <string name="recent_view">بازدید</string>
+    <string name="support">پشتیبانی</string>
+    <string name="about_us">درباره ی ما</string>
+    <string name="save">ذخیره</string>
+    <string name="settings">تنظیمات</string>
 </resources>
