@@ -16,5 +16,11 @@ class Signin : AppCompatActivity() {
      intent.data =Uri.parse("https://instagram.com/_bymahya_/")
             startActivity(intent)
         }
+        cardname.setOnClickListener {
+            val intent =Intent(this,MashopFragment::class.java)
+            val name:String=name.text.toString()
+            intent.putExtra(Constant.name,name)
+            startActivity(intent)
+        }
     }
 }

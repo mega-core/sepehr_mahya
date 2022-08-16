@@ -9,6 +9,7 @@ import kotlinx.android.synthetic.main.fragment_mashop.view.*
 
 class MashopFragment : Fragment(R.layout.fragment_mashop) {
     override fun onResume() {
+
         super.onResume()
 
  textsignin.setOnClickListener {
@@ -16,6 +17,7 @@ class MashopFragment : Fragment(R.layout.fragment_mashop) {
      startActivity(intent)
 
  }
+
     }
 
 }
