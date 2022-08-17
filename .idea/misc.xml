@@ -20,6 +20,7 @@
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_cheerfull.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_history.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_info.xml" value="0.1025" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_more.xml" value="0.203" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_pen.xml" value="0.1995" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_pro.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_profile.xml" value="0.1895" />
@@ -27,14 +28,18 @@
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_search.xml" value="0.203" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_settings.xml" value="0.1505" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_shop.xml" value="0.1895" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_shopify.xml" value="0.203" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/ic_support.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/rectangle.xml" value="0.1025" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splash.xml" value="0.1785" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/drawable/splashback.xml" value="0.1785" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_cry_acivity.xml" value="0.33" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_signin.xml" value="0.25" />
-        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_start_chating.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/activity_start_chating.xml" value="0.25" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_agahi.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_dasteha.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_mashop.xml" value="0.25" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/fragment_sabteagahi.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Windows 11/AndroidStudioProjects/sepehr_mahya/app/src/main/res/layout/startchating.xml" value="0.34375" />

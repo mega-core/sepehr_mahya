@@ -11,7 +11,7 @@ class StartChatingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start_chating)
 val view =findViewById<LinearLayout>(R.id.linearLayoutId)
     floting.setOnClickListener {
-        view.layoutParams.width=100
+        view.layoutParams.height=100
     }
     }
 }

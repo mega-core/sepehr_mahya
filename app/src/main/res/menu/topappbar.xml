@@ -10,4 +10,9 @@
         android:id="@+id/aboutus"
         android:title="درباره ی ما"/>
 
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_more"/>
+
 </menu>

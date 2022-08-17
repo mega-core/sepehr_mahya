@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".StartChatingActivity"
     android:background="@color/purple_200">
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floting"
         android:layout_width="wrap_content"
@@ -15,9 +14,7 @@
         android:layout_margin="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/coordinatorLayout"
-        app:srcCompat="@drawable/ic_add" />
-
-
+        app:srcCompat="@drawable/ic_plus" />
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"
@@ -28,8 +25,8 @@
         app:layout_constraintTop_toTopOf="parent">
         <LinearLayout
             android:id="@+id/linearLayoutId"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
             android:orientation="vertical"
             android:layout_gravity="bottom|end"
             android:layout_marginEnd="16dp"
@@ -47,19 +44,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"/>
         </LinearLayout>
-
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/splashscreen"
             app:liftOnScroll="true">
-
             <com.google.android.material.appbar.MaterialToolbar
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:menu="@menu/topappbar" />
-
         </com.google.android.material.appbar.AppBarLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
