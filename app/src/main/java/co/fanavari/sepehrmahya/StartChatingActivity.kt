@@ -9,9 +9,13 @@ class StartChatingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start_chating)
-val view =findViewById<LinearLayout>(R.id.linearLayoutId)
-    floting.setOnClickListener {
-        view.layoutParams.height=100
-    }
+        val view = findViewById<LinearLayout>(R.id.linearLayoutId)
+        floting.setOnClickListener {
+            view.layoutParams.height = 500
+            floting.hide()
+        }
+        unHide.setOnClickListener {
+            floting.show()
+        }
     }
 }
