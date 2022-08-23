@@ -1,9 +1,16 @@
 package co.fanavari.sepehrmahya
 
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.widget.ArrayAdapter
+import android.widget.ListView
+import android.widget.SearchView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_mashop.view.*
+import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         val mahya3 = SabteagahiFragment()
         val mahya4 = DasstehaFragment()
         val mahya5 = AgahiFragment()
+bottomnav.getOrCreateBadge(R.id.chat).apply {
+    number =10
+    isVisible = true
+
+}
 
         bottomnav.selectedItemId = R.id.shop
         bottomnav.setOnNavigationItemSelectedListener {

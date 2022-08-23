@@ -19,6 +19,7 @@
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorSurface">@color/white</item>
         <item name="colorOnSurface">@color/black</item>
+        <item name="actionOverflowButtonStyle">@drawable/ic_menu_moreoverflow_material</item>
         <item name="colorSecondary">@color/blackandwhite</item>
         <item name="colorOnSecondary">@color/purple_200</item>
         <item name="android:statusBarColor">#20000000</item>

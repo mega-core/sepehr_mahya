@@ -10,10 +10,10 @@ import kotlinx.android.synthetic.main.fragment_chat.*
 class ChatFragment : Fragment(R.layout.fragment_chat) {
        override fun onResume() {
         super.onResume()
-textstartchating.setOnClickListener {
-    val intent=Intent(context,StartChatingActivity::class.java)
-    startActivity(intent)
-}
+           textstartchating.setOnClickListener {
+               val intent=Intent(context,StartChatingActivity::class.java)
+               startActivity(intent)
+           }
 
     }
 

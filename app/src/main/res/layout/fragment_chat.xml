@@ -6,7 +6,18 @@
     android:layout_height="match_parent"
     android:background="@color/purple_200">
 
-    <com.google.android.material.card.MaterialCardView
+  <com.airbnb.lottie.LottieAnimationView
+      android:layout_width="203dp"
+      android:layout_height="220dp"
+      android:layout_marginTop="164dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:lottie_autoPlay="true"
+      app:lottie_loop="true"
+      app:lottie_rawRes="@raw/pen" />
+
+  <com.google.android.material.card.MaterialCardView
         android:id="@+id/button2"
         android:layout_width="130dp"
         android:layout_height="50dp"
@@ -24,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Start chating"
+            android:text="بزن بریم"
             android:clickable="true"
             android:focusable="true"
             android:background="?attr/selectableItemBackground"
@@ -33,41 +44,33 @@
             android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="174dp"
-        android:layout_height="178dp"
-        android:background="@drawable/ic_pen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:text="No Message Found"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:text="No Message Found"
+      android:textColor="@color/black"
+      android:textSize="30sp"
+      android:textStyle="normal"
+      android:gravity="center"
+      app:layout_constraintBottom_toTopOf="@+id/textView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text='"Lets Start Chating Now"'
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text='"Lets Start Chating Now"'
+      android:textSize="20sp"
+      android:gravity="center"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.637" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

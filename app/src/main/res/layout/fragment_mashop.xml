@@ -7,15 +7,6 @@
     android:layout_marginEnd="5dp"
     android:background="@color/purple_200">
 
-    <TextView
-        android:id="@+id/nodata"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:text="no data"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profilecard" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="83dp"
@@ -23,6 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" >
 
@@ -31,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ورود"
-            android:textColor="@color/black"
+            android:textColor="@color/purple_200"
             android:textSize="20sp"
             android:textStyle="bold"
             android:clickable="true"
@@ -59,20 +51,20 @@
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="@color/black"
         app:cardCornerRadius="80dp"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.032">
+<ImageView
+    android:id="@+id/imageprofile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/ic_pro"
+    android:layout_gravity="center"/>
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:background="@drawable/ic_pro"
-            android:clickable="true"
-            android:focusable="true" />
     </com.google.android.material.card.MaterialCardView>
 
     <androidx.constraintlayout.widget.Guideline
@@ -90,21 +82,23 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         app:strokeColor="@color/black"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guideline">
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/ic_back"
-    android:layout_gravity="left|center"
-    android:layout_marginStart="5dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left|center"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
 
         <TextView
             android:id="@+id/shoptext"
@@ -134,21 +128,23 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         app:strokeColor="@color/black"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card1">
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left|center"
-            android:layout_marginStart="5dp"/>
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
         <TextView
             android:id="@+id/historytext"
             android:layout_width="wrap_content"
@@ -176,9 +172,10 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         style="@style/Widget.Material3.Button.OutlinedButton"
         app:strokeColor="@color/black"
         android:background="?attr/selectableItemBackground"
@@ -186,12 +183,13 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card2">
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left|center"
-            android:layout_marginStart="5dp"/>
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
         <TextView
             android:id="@+id/supporttext"
             android:layout_width="100dp"
@@ -218,9 +216,10 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         app:strokeColor="@color/black"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:background="?attr/selectableItemBackground"
@@ -229,11 +228,11 @@
         app:layout_constraintTop_toBottomOf="@id/card3">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left|center"
-            android:layout_marginStart="5dp"/>
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
         <TextView
             android:id="@+id/savetext"
             android:layout_width="100dp"
@@ -260,9 +259,10 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         style="@style/Widget.Material3.Button.OutlinedButton"
         app:strokeColor="@color/black"
         android:background="?attr/selectableItemBackground"
@@ -270,12 +270,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card4"
         app:layout_goneMarginBottom="7dp">
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left|center"
-            android:layout_marginStart="5dp"/>
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
         <TextView
             android:id="@+id/abouttext"
             android:layout_width="100dp"
@@ -302,21 +303,23 @@
         android:layout_height="55dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         android:clickable="true"
         android:focusable="true"
+        app:cardBackgroundColor="@color/purple_200"
         app:strokeColor="@color/black"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card5">
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="left|center"
-            android:layout_marginStart="5dp"/>
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ic_back" />
         <TextView
             android:id="@+id/settingtext"
             android:layout_width="100dp"
